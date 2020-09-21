@@ -32,6 +32,19 @@ To execute the unit tests, execute the following gradle command
 $ ./gradlew test
 ```
 
+To execute a single unit test, execute the following gradle command
+   
+```
+# run a single unit test
+$ ./gradlew test --tests [test_class]
+```
+
+example:
+
+```
+$ ./gradlew test --tests com.nvoulgaris.testingworkshop.examples.ReplaceMe
+```
+
 ## Installing java
 
 The project requires java 8 (or any later version).
